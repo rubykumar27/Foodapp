@@ -1,0 +1,54 @@
+@font-face {
+    font-family: saira;
+    src: url(../fonts/Saira-Bold.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+:root{
+    --background:#E4FFFC;
+    --redpink:#D82871;
+    --green:#a6d482;
+    --black:#1c1a1a;
+    --grey:#c0cacb;
+}
+body{
+    background-color: var(--background);
+}
+.fontcolor{
+    color:var(--redpink)!important;
+}
+.headfonts{
+    font-family: saira;
+}
+.parafonts{
+    font-family: roboto
+}
+.cardbackground{
+    background-color: var(--green);
+}
+.imagesize{
+    width: 410px;
+    height: 300px;
+    border-radius: 30px;
+}
+.phoneimg{
+    width: auto;
+    height: 390px;
+}
+.fontchange{
+    color: var(--black);
+}
+.fontchange:hover{
+    color: var(--redpink)!important;
+}
+.footer-color{
+    background-color: var(--grey);
+}
+@media only screen and (min-width: 992px){
+    .orderplaced{
+        margin-top:-10rem;
+    }
+    
+}
